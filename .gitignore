@@ -1,0 +1,60 @@
+### General ###
+*.class
+*.log
+*.pyc
+*.pyo
+*.swp
+*~
+
+### Build Directories ###
+/target/
+/out/
+/build/
+
+### IDEs and Editors ###
+# IntelliJ IDEA
+/.idea/
+/*.iml
+
+# Eclipse
+/.project
+/.classpath
+/.settings/
+
+# VS Code
+/.vscode/
+
+### Maven ###
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+*.jar
+*.war
+*.ear
+
+### Gradle ###
+.gradle/
+/build/
+/.gradle-cache/
+
+### Logs ###
+*.log
+logs/
+/log/
+
+### OS Generated ###
+.DS_Store
+Thumbs.db
+
+### Temporary Files ###
+*.tmp
+*.bak
+*.swp
+*~
+
+### Environment Files ###
+.env
+application-*.properties
+application-*.yml
+
+### Other ###
+/.h2.server.properties
